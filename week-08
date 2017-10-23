@@ -1,3 +1,20 @@
 This includes: 
    1.  an articulation of my data model
-    2, the SQL code I used to create your table(s) and insert a row of values into the table(s)
+   2.  the SQL code I used to create your table(s) and insert a row of values into the table(s)
+
+2. psql --host=datastructures.cqg9canqxxtt.us-east-2.rds.amazonaws.com --port=5432 --username=grace --password --dbname=sensors
+CREATE TABLE gracesensors 
+(
+fsrsensor int, 
+potentiometersesnsor varchar(20), 
+sensortime timestamp DEFAULT current_timestamp
+);
+
+
+
+CREATE TABLE gracesensors (fsrsensor int, potentiometersesnsor varchar(20), sensortime timestamp DEFAULT current_timestamp);
+
+INSERT INTO gracesensors VALUES (1, 'motivated', DEFAULT);
+
+
+CREATE TABLE gracesensors (fsrsensor int, potentiometersesnsor varchar(20), sensortime timestamp DEFAULT current_timestamp);
