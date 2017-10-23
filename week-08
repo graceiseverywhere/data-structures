@@ -1,6 +1,11 @@
 This includes: 
    1.  an articulation of my data model
    2.  the SQL code I used to create your table(s) and insert a row of values into the table(s)
+1.
+
+![alt text](https://github.com/graceiseverywhere/data-structures/blob/master/MSDV_DataStructures_grace_sensors_mockdesign.png
+ "Initial Mockup design")
+
 
 2. psql --host=datastructures.cqg9canqxxtt.us-east-2.rds.amazonaws.com --port=5432 --username=grace --password --dbname=sensors
 CREATE TABLE gracesensors 
